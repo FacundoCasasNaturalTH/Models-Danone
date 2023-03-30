@@ -4,61 +4,61 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class OutputASN {
     @JsonProperty
-    private String field_chr1;
+    private String fieldChr1;
     @JsonProperty
-    private String fec_remito;
+    private String fecRemito;
     @JsonProperty
-    private String cod_almacen_origen;
+    private String codAlmacenOrigen;
     @JsonProperty
-    private String cod_almacen;
+    private String codAlmacen;
     @JsonProperty
-    private String field_chr2;
+    private String fieldChr2;
     @JsonProperty
-    private String can_remito;
+    private String canRemito;
     @JsonProperty
     private String USAP;
     @JsonProperty
-    private String fec_vencimiento;
+    private String fecVencimiento;
     @JsonProperty
     private String SSAP;
     @JsonProperty
-    private String nro_sscc;
+    private String nroSscc;
 
-    public String getField_chr1() {
-        return field_chr1;
+    public String getFieldChr1() {
+        return fieldChr1;
     }
-    public void setField_chr1(String field_chr1) {
-        this.field_chr1 = field_chr1;
+    public void setFieldChr1(String fieldChr1) {
+        this.fieldChr1 = fieldChr1;
     }
-    public String getFec_remito() {
-        return fec_remito;
+    public String getFecRemito() {
+        return fecRemito;
     }
-    public void setFec_remito(String fec_remito) {
-        this.fec_remito = fec_remito;
+    public void setFecRemito(String fecRemito) {
+        this.fecRemito = fecRemito;
     }
-    public String getCod_almacen_origen() {
-        return cod_almacen_origen;
+    public String getCodAlmacenOrigen() {
+        return codAlmacenOrigen;
     }
-    public void setCod_almacen_origen(String cod_almacen_origen) {
-        this.cod_almacen_origen = cod_almacen_origen;
+    public void setCodAlmacenOrigen(String codAlmacenOrigen) {
+        this.codAlmacenOrigen = codAlmacenOrigen;
     }
-    public String getCod_almacen() {
-        return cod_almacen;
+    public String getCodAlmacen() {
+        return codAlmacen;
     }
-    public void setCod_almacen(String cod_almacen) {
-        this.cod_almacen = cod_almacen;
+    public void setCodAlmacen(String codAlmacen) {
+        this.codAlmacen = codAlmacen;
     }
-    public String getField_chr2() {
-        return field_chr2;
+    public String getFieldChr2() {
+        return fieldChr2;
     }
-    public void setField_chr2(String field_chr2) {
-        this.field_chr2 = field_chr2;
+    public void setFieldChr2(String fieldChr2) {
+        this.fieldChr2 = fieldChr2;
     }
-    public String getCan_remito() {
-        return can_remito;
+    public String getCanRemito() {
+        return canRemito;
     }
-    public void setCan_remito(String can_remito) {
-        this.can_remito = can_remito;
+    public void setCanRemito(String canRemito) {
+        this.canRemito = canRemito;
     }
     public String getUSAP() {
         return USAP;
@@ -66,11 +66,11 @@ public class OutputASN {
     public void setUSAP(String uSAP) {
         USAP = uSAP;
     }
-    public String getFec_vencimiento() {
-        return fec_vencimiento;
+    public String getFecVencimiento() {
+        return fecVencimiento;
     }
-    public void setFec_vencimiento(String fec_vencimiento) {
-        this.fec_vencimiento = fec_vencimiento;
+    public void setFecVencimiento(String fecVencimiento) {
+        this.fecVencimiento = fecVencimiento;
     }
     public String getSSAP() {
         return SSAP;
@@ -78,12 +78,14 @@ public class OutputASN {
     public void setSSAP(String sSAP) {
         SSAP = sSAP;
     }
-    public String getNro_sscc() {
-        return nro_sscc;
+    public String getNroSscc() {
+        return nroSscc;
     }
-    public void setNro_sscc(String nro_sscc) {
-        this.nro_sscc = nro_sscc;
+    public void setNroSscc(String nroSscc) {
+        this.nroSscc = nroSscc;
     }
+
+    
     
     
 }
