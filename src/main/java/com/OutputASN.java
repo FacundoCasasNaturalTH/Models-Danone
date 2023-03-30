@@ -14,6 +14,8 @@ public class OutputASN {
     @JsonProperty
     private String fieldChr2;
     @JsonProperty
+    private String fieldChr3;
+    @JsonProperty
     private String canRemito;
     @JsonProperty
     private String USAP;
@@ -83,6 +85,12 @@ public class OutputASN {
     }
     public void setNroSscc(String nroSscc) {
         this.nroSscc = nroSscc;
+    }
+    public String getFieldChr3() {
+        return fieldChr3;
+    }
+    public void setFieldChr3(String fieldChr3) {
+        this.fieldChr3 = fieldChr3;
     }
 
     
