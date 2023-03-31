@@ -8,6 +8,7 @@
   <groupId>com</groupId>
   <artifactId>danone</artifactId>
   <version>3.0.5</version>
+  <packaging>jar</packaging>
 
   <name>danone</name>
   <!-- FIXME change it to the project's website -->
