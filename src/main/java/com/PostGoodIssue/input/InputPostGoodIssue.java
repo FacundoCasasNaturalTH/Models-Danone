@@ -3,93 +3,93 @@ package com.PostGoodIssue.input;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class InputPostGoodIssue {
-    @JsonProperty("LINUM")
-    private String linum;
-    @JsonProperty("DLIEF")
-    private String dlief;
-    @JsonProperty("WERKS")
-    private String werks;
-    @JsonProperty("NUM")
-    private String num;
-    @JsonProperty("MEINS")
-    private String meins;
-    @JsonProperty("LGMNG")
-    private String lgmng;
-    @JsonProperty("VRKME")
-    private String vrkme;
-    @JsonProperty("GLIEF1")
-    private String glief1;
-    @JsonProperty("PRODLOT")
-    private String prodlot;
-    @JsonProperty("EXPIRY")
-    private String expiry;
-    @JsonProperty("SSCC")
-    private String sscc;
+    @JsonProperty
+    private String LINUM;
+    @JsonProperty
+    private String DLIEF;
+    @JsonProperty
+    private String WERKS;
+    @JsonProperty
+    private String NUM;
+    @JsonProperty
+    private String MEINS;
+    @JsonProperty
+    private String LGMNG;
+    @JsonProperty
+    private String VRKME;
+    @JsonProperty
+    private String GLIEF1;
+    @JsonProperty
+    private String PRODLOT;
+    @JsonProperty
+    private String EXPIRY;
+    @JsonProperty
+    private String SSCC;
 
-    public String getLinum() {
-        return linum;
+    public String getLINUM() {
+        return LINUM;
     }
-    public void setLinum(String linum) {
-        this.linum = linum;
+    public void setLINUM(String lINUM) {
+        this.LINUM = lINUM;
     }
-    public String getDlief() {
-        return dlief;
+    public String getDLIEF() {
+        return DLIEF;
     }
-    public void setDlief(String dlief) {
-        this.dlief = dlief;
+    public void setDLIEF(String dLIEF) {
+        this.DLIEF = dLIEF;
     } 
-    public String getWerks() {
-        return werks;
+    public String getWERKS() {
+        return WERKS;
     }
-    public void setWerks(String werks) {
-        this.werks = werks;
+    public void setWERKS(String wERKS) {
+        this.WERKS = wERKS;
     }
-    public String getNum() {
-        return num;
+    public String getNUM() {
+        return NUM;
     }
-    public void setNum(String num) {
-        this.num = num;
+    public void setNUM(String nUM) {
+        this.NUM = nUM;
     }
-    public String getMeins() {
-        return meins;
+    public String getMEINS() {
+        return MEINS;
     }
-    public void setMeins(String meins) {
-        this.meins = meins;
+    public void setMEINS(String mEINS) {
+        this.MEINS = mEINS;
     } 
-    public String getLgmng() {
-        return lgmng;
+    public String getLGMNG() {
+        return LGMNG;
     }
-    public void setLgmng(String lgmng) {
-        this.lgmng = lgmng;
+    public void setLGMNG(String lGMNG) {
+        this.LGMNG = lGMNG;
     }
-    public String getVrkme() {
-        return vrkme;
+    public String getVRKME() {
+        return VRKME;
     }
-    public void setVrkme(String vrkme) {
-        this.vrkme = vrkme;
+    public void setVRKME(String vRKME) {
+        this.VRKME = vRKME;
     }
-    public String getGlief1() {
-        return glief1;
+    public String getGLIEF1() {
+        return GLIEF1;
     }
-    public void setGlief1(String glief1) {
-        this.glief1 = glief1;
+    public void setGLIEF1(String gLIEF1) {
+        this.GLIEF1 = gLIEF1;
     }
-    public String getProdlot() {
-        return prodlot;
+    public String getPRODLOT() {
+        return PRODLOT;
     }
-    public void setProdlot(String prodlot) {
-        this.prodlot = prodlot;
+    public void setPRODLOT(String pRODLOT) {
+        this.PRODLOT = pRODLOT;
     }
-    public String getExpiry() {
-        return expiry;
+    public String getEXPIRY() {
+        return EXPIRY;
     }
-    public void setExpiry(String expiry) {
-        this.expiry = expiry;
+    public void setEXPIRY(String eXPIRY) {
+        this.EXPIRY = eXPIRY;
     }
-    public String getSscc() {
-        return sscc;
+    public String getSSCC() {
+        return SSCC;
     }
-    public void setSscc(String sscc) {
-        this.sscc = sscc;
+    public void setSSCC(String sSCC) {
+        this.SSCC = sSCC;
     }
 }
