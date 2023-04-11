@@ -15,101 +15,101 @@ public class InputPostGoodIssue {
     private String expiry;
     private String sscc;
 
-    @JsonProperty("linum")
+    @JsonProperty("LINUM")
     public String getLinum() {
         return linum;
     }
-    @JsonProperty("linum")
+    @JsonProperty("LINUM")
     public void setLinum(String linum) {
         this.linum = linum;
     }
 
-    @JsonProperty("dlief")
+    @JsonProperty("DLIEF")
     public String getDlief() {
         return dlief;
     }
-    @JsonProperty("dlief")
+    @JsonProperty("DLIEF")
     public void setDlief(String dlief) {
         this.dlief = dlief;
     }
 
-    @JsonProperty("werks")
+    @JsonProperty("WERKS")
     public String getWerks() {
         return werks;
     }
-    @JsonProperty("werks")
+    @JsonProperty("WERKS")
     public void setWerks(String werks) {
         this.werks = werks;
     }
 
-    @JsonProperty("num")
+    @JsonProperty("NUM")
     public String getNum() {
         return num;
     }
-    @JsonProperty("num")
+    @JsonProperty("NUM")
     public void setNum(String num) {
         this.num = num;
     }
 
-    @JsonProperty("meins")
+    @JsonProperty("MEINS")
     public String getMeins() {
         return meins;
     }
-    @JsonProperty("meins")
+    @JsonProperty("MEINS")
     public void setMeins(String meins) {
         this.meins = meins;
     }
 
-    @JsonProperty("lgmng")
+    @JsonProperty("LGMNG")
     public String getLgmng() {
         return lgmng;
     }
-    @JsonProperty("lgmng")
+    @JsonProperty("LGMNG")
     public void setLgmng(String lgmng) {
         this.lgmng = lgmng;
     }
 
-    @JsonProperty("vrkme")
+    @JsonProperty("VRKME")
     public String getVrkme() {
         return vrkme;
     }
-    @JsonProperty("vrkme")
+    @JsonProperty("VRKME")
     public void setVrkme(String vrkme) {
         this.vrkme = vrkme;
     }
 
-    @JsonProperty("glief1")
+    @JsonProperty("GLIEF1")
     public String getGlief1() {
         return glief1;
     }
-    @JsonProperty("glief1")
+    @JsonProperty("GLIEF1")
     public void setGlief1(String glief1) {
         this.glief1 = glief1;
     }
 
-    @JsonProperty("prodlot")
+    @JsonProperty("PRODLOT")
     public String getProdlot() {
         return prodlot;
     }
-    @JsonProperty("prodlot")
+    @JsonProperty("PRODLOT")
     public void setProdlot(String prodlot) {
         this.prodlot = prodlot;
     }
 
-    @JsonProperty("expiry")
+    @JsonProperty("EXPIRY")
     public String getExpiry() {
         return expiry;
     }
-    @JsonProperty("expiry")
+    @JsonProperty("EXPIRY")
     public void setExpiry(String expiry) {
         this.expiry = expiry;
     }
 
-    @JsonProperty("sscc")
+    @JsonProperty("SSCC")
     public String getSscc() {
         return sscc;
     }
-    @JsonProperty("sscc")
+    @JsonProperty("SSCC")
     public void setSscc(String sscc) {
         this.sscc = sscc;
     }
