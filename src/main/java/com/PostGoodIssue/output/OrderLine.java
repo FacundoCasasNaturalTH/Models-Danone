@@ -1,8 +1,8 @@
-package com.input;
+package com.PostGoodIssue.output;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class LinePostGoodIssue {
+public class OrderLine {
 
     private String productNumber;
     private String qtyInBasicUnit;

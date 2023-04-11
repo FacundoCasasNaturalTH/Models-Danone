@@ -1,4 +1,4 @@
-package com.input;
+package com.PostGoodIssue.input;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -8,7 +8,7 @@ public class InputPostGoodIssue {
     private String werks;
     private String num;
     private String meins;
-    private String lgmngl;
+    private String lgmng;
     private String vrkme;
     private String glief1;
     private String prodlot;
@@ -60,13 +60,13 @@ public class InputPostGoodIssue {
         this.meins = meins;
     }
 
-    @JsonProperty("lgmngl")
-    public String getLgmngl() {
-        return lgmngl;
+    @JsonProperty("lgmng")
+    public String getLgmng() {
+        return lgmng;
     }
-    @JsonProperty("lgmngl")
-    public void setLgmngl(String lgmngl) {
-        this.lgmngl = lgmngl;
+    @JsonProperty("lgmng")
+    public void setLgmng(String lgmng) {
+        this.lgmng = lgmng;
     }
 
     @JsonProperty("vrkme")

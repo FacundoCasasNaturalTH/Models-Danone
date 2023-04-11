@@ -1,9 +1,8 @@
-package com;
+package com.PostGoodIssue.output;
 
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.input.LinePostGoodIssue;
 
 public class OutputPostGoodIssue {
     @JsonProperty
@@ -15,7 +14,7 @@ public class OutputPostGoodIssue {
     @JsonProperty
     private String plantCode;
     @JsonProperty
-    private List<LinePostGoodIssue> line;
+    private List<OrderLine> orderLine;
 
     public String getDeliveryNumber() {
         return deliveryNumber;
@@ -41,11 +40,11 @@ public class OutputPostGoodIssue {
     public void setPlantCode(String plantCode) {
         this.plantCode = plantCode;
     }
-    public List<LinePostGoodIssue> getLine() {
-        return line;
+    public List<OrderLine> getOrderLine() {
+        return orderLine;
     }
-    public void setLine(List<LinePostGoodIssue> line) {
-        this.line = line;
+    public void setOrderLine(List<OrderLine> orderLine) {
+        this.orderLine = orderLine;
     }  
 }
 
